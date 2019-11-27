@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="" />
+    <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/unitTestJava/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Kalkulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/unitTestJava/Kalkulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unitTestJava/AccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/KalkulatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unitTestJava/KalkulatorTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +29,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UCX22FtxfPThXhDTcqfOHDf84e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -49,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KalkulatorTest">
+  <component name="RunManager" selected="JUnit.AccountTest.myTest">
     <configuration name="KalkulatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unitTestJava.KalkulatorTest" />
       <module name="unit-testing-java" />
@@ -109,9 +121,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KalkulatorTest" />
-        <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.AccountTest.myTest" />
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="Application.KalkulatorTest" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -127,11 +139,34 @@
       <option name="presentableId" value="Default" />
       <updated>1574861339595</updated>
       <workItem from="1574861343759" duration="283000" />
-      <workItem from="1574861848113" duration="1800000" />
+      <workItem from="1574861848113" duration="2454000" />
     </task>
+    <task id="LOCAL-00001" summary="Test Update">
+      <created>1574863886929</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574863886929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Update" />
   </component>
 </project>
