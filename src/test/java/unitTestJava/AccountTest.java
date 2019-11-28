@@ -2,8 +2,7 @@ package unitTestJava;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AccountTest {
 
@@ -28,5 +27,32 @@ public class AccountTest {
 
         //then
         assertTrue(newAccount.isActive());
+    }
+
+    @Test
+    void newLyCreatedAccountShouldNOtHaveDefaultDeliveryAddressSet(){
+
+        //given
+        Account account = new Account();
+
+        //when
+        Address address = account.getDefoultDeliveryAddress();
+
+        //then
+        assertNull(address);
+    }
+
+    @Test
+    void defaultDeliveryAddressShoulderNOtBeNullAfterBeingSet(){
+
+        Address address = new Address("wołomin", "89c");
+        Account account = new Account();
+        account.setDefoultDeliveryAddress(address);
+
+        //when
+        Address defaultAddress = account.getDefoultDeliveryAddress();
+
+        //then
+        assertNotNull(defaultAddress);
     }
 }
