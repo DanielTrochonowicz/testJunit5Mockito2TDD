@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,22 +63,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
+  <component name="RunManager" selected="JUnit.MealTest.referenceToTheSameObjectShouldBeEquals">
     <configuration name="KalkulatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unitTestJava.KalkulatorTest" />
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTestJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.Test" />
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
@@ -122,12 +108,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MealTest.referenceToTheSameObjectShouldBeEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.MealTest" />
+      <option name="METHOD_NAME" value="referenceToTheSameObjectShouldBeEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MealTest.shouldReturnDiscountedPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.MealTest" />
+      <option name="METHOD_NAME" value="shouldReturnDiscountedPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MealTest.referenceToTheSameObjectShouldBeEquals" />
         <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.MealTest.shouldReturnDiscountedPrice" />
         <item itemvalue="JUnit.AccountTest.myTest" />
         <item itemvalue="Application.KalkulatorTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574861339595</updated>
       <workItem from="1574861343759" duration="283000" />
-      <workItem from="1574861848113" duration="3840000" />
+      <workItem from="1574861848113" duration="4093000" />
     </task>
     <task id="LOCAL-00001" summary="Test Update">
       <created>1574863886929</created>
@@ -165,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574864830003</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test Update">
+      <created>1574967482241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574967482241</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
