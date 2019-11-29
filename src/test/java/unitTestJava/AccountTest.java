@@ -54,5 +54,6 @@ public class AccountTest {
 
         //then
         assertNotNull(defaultAddress);
+
     }
 }
