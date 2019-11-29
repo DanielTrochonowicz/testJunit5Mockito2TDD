@@ -2,23 +2,33 @@ package unitTestJava;
 
 import org.junit.jupiter.api.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
+//import static org.assertj.core.internal.bytebuddy.matcher.ElementMatchers.is;
+//import static org.hamcrest.CoreMatchers.*;
+//import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class AccountTest {
 
     @Test
-    public void newAccountShouldNotBeActivateAfterCreation(){
+    public void newCreateAccountShouldNotBeActivate(){
         //given
         Account newAccount = new Account();
 
         //then
         assertFalse(newAccount.isActive(), "Check if new account is not active");
+        assertThat(newAccount.isActive()).isFalse();
 //        assertFalse(true, "Check if new account is not active");
 //        assertFalse(true);
+
+//        assertThat(newAccount.isActive(), equalTo(false));
+//        assertThat(newAccount.isActive(), is(false));
+
+
     }
 
     @Test
-    void accountShouldBeActiveAfterActivation(){
+    void accountedAccountShouldActiveActiveAfterActiveFlagSet(){
         //given
         Account newAccount = new Account();
 
@@ -27,6 +37,7 @@ public class AccountTest {
 
         //then
         assertTrue(newAccount.isActive());
+        assertThat(newAccount.isActive()).isTrue();
     }
 
     @Test
@@ -40,6 +51,8 @@ public class AccountTest {
 
         //then
         assertNull(address);
+        assertThat(address).isNull();
+//        assertThat(address, nullValue());
     }
 
     @Test
@@ -54,6 +67,8 @@ public class AccountTest {
 
         //then
         assertNotNull(defaultAddress);
+        assertThat(defaultAddress).isNotNull();
 
+//        assertThat(defaultAddress, is(notNullValue()));
     }
 }
