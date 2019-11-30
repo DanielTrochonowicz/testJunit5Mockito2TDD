@@ -23,8 +23,6 @@ public class AccountTest {
 
 //        assertThat(newAccount.isActive(), equalTo(false));
 //        assertThat(newAccount.isActive(), is(false));
-
-
     }
 
     @Test
