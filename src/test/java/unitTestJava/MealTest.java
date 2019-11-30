@@ -19,8 +19,6 @@ class MealTest {
         //then
         assertEquals(7, discountedPrice);
         assertThat(discountedPrice).isEqualTo(7);
-
-
     }
 
     @Test
