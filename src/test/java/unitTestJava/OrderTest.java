@@ -42,6 +42,16 @@ public class OrderTest {
         Meal meal = new Meal(15, "Burger");
         Meal meal2 = new Meal(15, "Sandwich");
         Order order = new Order();
+
+        //when
+        order.addMealToOrder(meal);
+
+        //then
+        assertThat(order.getMeals(), hasSize(1));
+        assertThat(order.getMeals(), contains(meal));
+        assertThat(order.getMeals(), hasItem(meal));
+
+        assertThat(order.getMeals().get(0). getPrice(), equalTo(15));
     }
 
 }
