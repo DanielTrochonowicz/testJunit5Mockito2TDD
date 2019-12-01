@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,22 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderTest.removeingMealFromOrderShouldDecreaseOrderSize">
-    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTestJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.OrderTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OrderTest.mealsShouldBeInCorrectOrderAfterAddingThemToOrder">
     <configuration name="OrderTest.addingMealToOrderShouldIncreaseOrderSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -108,6 +94,22 @@
       <option name="PACKAGE_NAME" value="unitTestJava" />
       <option name="MAIN_CLASS_NAME" value="unitTestJava.OrderTest" />
       <option name="METHOD_NAME" value="mealListShouldBeEmptyAfterCreationOfOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.mealsShouldBeInCorrectOrderAfterAddingThemToOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.OrderTest" />
+      <option name="METHOD_NAME" value="mealsShouldBeInCorrectOrderAfterAddingThemToOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderTest.mealsShouldBeInCorrectOrderAfterAddingThemToOrder" />
         <item itemvalue="JUnit.OrderTest.removeingMealFromOrderShouldDecreaseOrderSize" />
         <item itemvalue="JUnit.OrderTest.addingMealToOrderShouldIncreaseOrderSize" />
         <item itemvalue="JUnit.OrderTest.mealListShouldBeEmptyAfterCreationOfOrder" />
         <item itemvalue="JUnit.OrderTest.testAssertArrayEquals" />
-        <item itemvalue="JUnit.OrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +169,7 @@
       <updated>1574861339595</updated>
       <workItem from="1574861343759" duration="283000" />
       <workItem from="1574861848113" duration="8366000" />
-      <workItem from="1575194909389" duration="2798000" />
+      <workItem from="1575194909389" duration="3333000" />
     </task>
     <task id="LOCAL-00001" summary="Test Update">
       <created>1574863886929</created>
@@ -260,7 +262,28 @@
       <option name="project" value="LOCAL" />
       <updated>1575199480285</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Test Update">
+      <created>1575199622960</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575199622960</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Test Update">
+      <created>1575199755012</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575199755012</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Test Update">
+      <created>1575199789755</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575199789755</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
