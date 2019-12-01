@@ -67,6 +67,7 @@ public class OrderTest {
 
         //that
         assertThat(order.getMeals(), hasSize(0));
+        assertThat(order.getMeals(), not(contains(meal)));
     }
 
 }
