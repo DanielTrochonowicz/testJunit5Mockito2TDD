@@ -54,4 +54,19 @@ public class OrderTest {
         assertThat(order.getMeals().get(0). getPrice(), equalTo(15));
     }
 
+    @Test
+    void removeingMealFromOrderShouldDecreaseOrderSize(){
+
+        //given
+        Meal meal = new Meal(15, "Burger");
+        Order order = new Order();
+
+        //when
+        order.addMealToOrder(meal);
+        order.removeMealToOrder(meal);
+
+        //that
+        assertThat(order.getMeals(), hasSize(0));
+    }
+
 }
