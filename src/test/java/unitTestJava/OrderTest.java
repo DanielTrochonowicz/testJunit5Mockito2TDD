@@ -40,6 +40,8 @@ public class OrderTest {
 
         //given
         Meal meal = new Meal(15, "Burger");
+        Meal meal2 = new Meal(15, "Sandwich");
+        Order order = new Order();
     }
 
 }
