@@ -1,6 +1,7 @@
 package unitTestJava;
 
 import org.hamcrest.Matcher;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Array;
@@ -13,6 +14,14 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class OrderTest {
+
+    private Order order;
+
+    @BeforeEach
+    void  initializerOrder(){
+        order = new Order();
+    }
+
 
     @Test
     void testAssertArrayEquals(){
