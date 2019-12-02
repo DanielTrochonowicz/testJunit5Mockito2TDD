@@ -56,7 +56,7 @@ class MealTest {
         assertThat(meal1).isEqualTo(meal2);
     }
 
-    @Test
+    @Test  //(expected = IllegalArgumentException.class)
     void exceptionShoulderBeThrownIfDiscountIsHigherThanThePrice() {
 
         //given
