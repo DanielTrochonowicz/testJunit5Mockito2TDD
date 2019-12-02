@@ -36,9 +36,6 @@ public class OrderTest {
     @Test
     void mealListShouldBeEmptyAfterCreationOfOrder(){
 
-        //given
-        Order order = new Order();
-
         //then
         assertThat(order.getMeals());
         assertThat(order.getMeals().size(), equalTo(0));
@@ -52,7 +49,6 @@ public class OrderTest {
         //given
         Meal meal = new Meal(15, "Burger");
         Meal meal2 = new Meal(15, "Sandwich");
-        Order order = new Order();
 
         //when
         order.addMealToOrder(meal);
@@ -70,7 +66,6 @@ public class OrderTest {
 
         //given
         Meal meal = new Meal(15, "Burger");
-        Order order = new Order();
 
         //when
         order.addMealToOrder(meal);
@@ -87,7 +82,6 @@ public class OrderTest {
         //given
         Meal meal1 = new Meal(15, "Burger");
         Meal meal2 = new Meal(5, "Sandwich");
-        Order order = new Order();
 
         //when
         order.addMealToOrder(meal1);
