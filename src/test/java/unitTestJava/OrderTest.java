@@ -1,6 +1,7 @@
 package unitTestJava;
 
 import org.hamcrest.Matcher;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -20,6 +21,11 @@ public class OrderTest {
     @BeforeEach
     void  initializerOrder(){
         order = new Order();
+    }
+
+    @AfterEach
+    void clean(){
+        order.canel();
     }
 
 

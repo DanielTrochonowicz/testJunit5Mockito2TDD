@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MealTest.exceptionShoulderBeThrownIfDiscountIsHigherThanThePrice">
+  <component name="RunManager" selected="JUnit.OrderTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unitTestJava.Main" />
       <module name="unit-testing-java" />
@@ -95,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.addingMealToOrderShouldIncreaseOrderSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +106,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="unitTestJava" />
       <option name="MAIN_CLASS_NAME" value="unitTestJava.OrderTest" />
-      <option name="METHOD_NAME" value="addingMealToOrderShouldIncreaseOrderSize" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.MealTest.exceptionShoulderBeThrownIfDiscountIsHigherThanThePrice" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OrderTest.mealsShouldBeInCorrectOrderAfterAddingThemToOrder" />
         <item itemvalue="JUnit.OrderTest.removeingMealFromOrderShouldDecreaseOrderSize" />
-        <item itemvalue="JUnit.OrderTest.addingMealToOrderShouldIncreaseOrderSize" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +166,7 @@
       <workItem from="1574861343759" duration="283000" />
       <workItem from="1574861848113" duration="8366000" />
       <workItem from="1575194909389" duration="4637000" />
-      <workItem from="1575287471831" duration="911000" />
+      <workItem from="1575287471831" duration="1153000" />
     </task>
     <task id="LOCAL-00001" summary="Test Update">
       <created>1574863886929</created>
@@ -308,7 +308,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575288314865</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Test Update">
+      <created>1575288516660</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1575288516660</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Test Update">
+      <created>1575288550808</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575288550808</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
