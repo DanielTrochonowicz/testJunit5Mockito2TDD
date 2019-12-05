@@ -25,7 +25,6 @@ public class OrderTest {
 
     @AfterEach
     void clean(){
-
         order.canel();
     }
 
