@@ -18,7 +18,16 @@ public class OrderBackupTest {
     }
 
     @Test
-    void
+    void backupOrderWithOneMEal() throws IOException {
+        //given
+        Meal meal = new Meal(7, "Fries");
+        Order order = new Order();
+        order.addMealToOrder(meal);
+        //when
+        orderBeckup.backupOrder(order);
+        //then
+        System.out.println("Order: " + order.toString() + " backed up.");
+    }
 
     @AfterAll
     static void tearDown() throws IOException {
