@@ -2,6 +2,7 @@ package unitTestJava;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -15,6 +16,15 @@ public class OrderBackupTest {
     static void  setup() throws FileNotFoundException {
         orderBeckup = new OrderBeckup();
         orderBeckup.createFile();
+    }
+    @BeforeEach
+    void appendAtTheStartOfTheLine() throws IOException {
+        orderBeckup.getWriter().append("");
+    }
+
+    @AfterAll
+    void appendAtTheOfTheLine() throws IOException {
+        orderBeckup.getWriter().append("backed up.");
     }
 
     @Test
