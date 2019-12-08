@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/Cart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/CartTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderBackupTest">
+  <component name="RunManager" selected="JUnit.CartTest.simulateLeargeOrder">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unitTestJava.Main" />
       <module name="unit-testing-java" />
@@ -76,6 +76,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartTest.simulateLeargeOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.CartTest" />
+      <option name="METHOD_NAME" value="simulateLeargeOrder" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,29 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.mealsShouldBeInCorrectOrderAfterAddingThemToOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTestJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.OrderTest" />
-      <option name="METHOD_NAME" value="mealsShouldBeInCorrectOrderAfterAddingThemToOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartTest.simulateLeargeOrder" />
         <item itemvalue="JUnit.OrderBackupTest" />
         <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.MealTest.exceptionShoulderBeThrownIfDiscountIsHigherThanThePrice" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.OrderTest.mealsShouldBeInCorrectOrderAfterAddingThemToOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,7 @@
       <workItem from="1575394761173" duration="647000" />
       <workItem from="1575396557246" duration="1055000" />
       <workItem from="1575572443573" duration="1909000" />
-      <workItem from="1575732729660" duration="2252000" />
+      <workItem from="1575732729660" duration="2503000" />
     </task>
     <task id="LOCAL-00001" summary="Test Update">
       <created>1574863886929</created>
@@ -395,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575798687621</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Test Update">
+      <created>1575815795339</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1575815795339</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

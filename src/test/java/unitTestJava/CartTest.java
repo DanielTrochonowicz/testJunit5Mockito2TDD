@@ -16,6 +16,6 @@ class CartTest {
 
         //when
         //then
-        assertTimeout(Duration.ofMillis(10), cart::simulateLeargeOrder);
+        assertTimeout(Duration.ofMillis(100), cart::simulateLeargeOrder);
     }
 }
