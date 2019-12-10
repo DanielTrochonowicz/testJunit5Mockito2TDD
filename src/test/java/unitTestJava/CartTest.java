@@ -52,7 +52,7 @@ class CartTest {
                 is(not(emptyCollectionOf(Order.class)))
         ));
 
-        assertAll(
+        assertAll("This is a group of assertion for cart",
                 () -> assertThat(cart.getOrders(), notNullValue()),
                 () -> assertThat(cart.getOrders(), hasSize(1)),
                 () -> assertThat(cart.getOrders(), is(not(empty()))),
