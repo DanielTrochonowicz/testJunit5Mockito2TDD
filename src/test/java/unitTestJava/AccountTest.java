@@ -1,5 +1,6 @@
 package unitTestJava;
 
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -7,6 +8,7 @@ import static org.assertj.core.internal.bytebuddy.matcher.ElementMatchers.is;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 public class AccountTest {
 
@@ -68,5 +70,18 @@ public class AccountTest {
         assertThat(defaultAddress).isNotNull();
 
 //        assertThat(defaultAddress, is(notNullValue()));
+    }
+
+    @RepeatedTest(25)
+    void newAccountWithNotNullAddressShouldBeActive(){
+
+        //given
+        Address address = new Address("Powstańców", "3/5");
+        //when
+        Account account = new Account(address);
+        //then
+        assumingThat(address != null, () ->{
+        assertTrue(account.isActive());
+    });
     }
 }
