@@ -2,28 +2,18 @@ package unitTestJava;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.util.stream.Stream;
+
 import static org.assertj.core.api.Java6Assertions.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
-import static sun.jvm.hotspot.utilities.AddressOps.lessThan;
 
 class MealTest {
-
-    @Test
-    void shouldReturnDiscountedPrice() {
-
-        //given
-        Meal meal = new Meal(35);
-
-        //when
-        int discountedPrice = meal.getDiscountedPrice(7);
-
-        //then
-        assertEquals(7, discountedPrice);
-        assertThat(discountedPrice).isEqualTo(7);
-    }
-
     @Test
     void referenceToTheSameObjectShouldBeEquals() {
         //given
@@ -70,9 +60,38 @@ class MealTest {
         assertThrows(IllegalArgumentException.class, () -> meal.getDiscountedPrice(40));
     }
 
+    @Test
+
+    void shouldReturnDiscountedPrice() {
+
+        //given
+        Meal meal = new Meal(35);
+
+        //when
+        int discountedPrice = meal.getDiscountedPrice(7);
+
+        //then
+        assertEquals(7, discountedPrice);
+        assertThat(discountedPrice).isEqualTo(7);
+    }
+
     @ParameterizedTest
     @ValueSource(ints = {5, 10, 15, 18})
-    void mealPriceShouldBeLoweThan20(int price){
+    void mealPriceShouldBeLoweThan20(int price) {
         assertThat(price, lessThan(20));
+    }
+
+    @ParameterizedTest
+    @MethodSource("createMealsWithNameAndPrice")
+    void burgersShouldHaveCorrectNameAndPrice(String name, int price){
+        assertThat(name, containsString("burger"));
+        assertThat(price, greaterThanOrEqualTo(10));
+    }
+
+    private static Stream<Arguments> createMealsWithNameAndPrice(){
+        return Stream.of(
+                Arguments.of("Hamburger", 10),
+                Arguments.of("Cheesburger", 12)
+        );
     }
 }
