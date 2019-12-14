@@ -6,6 +6,8 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;
@@ -93,5 +95,17 @@ class MealTest {
                 Arguments.of("Hamburger", 10),
                 Arguments.of("Cheesburger", 12)
         );
+    }
+
+    @ParameterizedTest
+    @MethodSource("createCakeName")
+    void cakeNamesShouldEndWithCake(String name, int price){
+        assertThat(name, notNullValue());
+        assertThat(name, endsWith("cake"));
+    }
+
+    private static Stream<String> createCakeName(){
+        List<String> cakeNames = Arrays.asList("Cheesecake", "Fruitcake", "Cupcake");
+        return  cakeNames.stream();
     }
 }

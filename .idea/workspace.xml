@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderStatusTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" afterDir="false" />
     </list>
@@ -73,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MealTest.burgersShouldHaveCorrectNameAndPrice">
+  <component name="RunManager" selected="JUnit.MealTest">
     <configuration name="AccountTest.newAccountWithNotNullAddressShouldBeActive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -121,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartTest.simulateLeargeOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MealTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
@@ -130,9 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.CartTest" />
-      <option name="METHOD_NAME" value="simulateLeargeOrder" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.MealTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MealTest" />
         <item itemvalue="JUnit.MealTest.burgersShouldHaveCorrectNameAndPrice" />
         <item itemvalue="JUnit.AccountTest.newAccountWithNotNullAddressShouldBeActive" />
         <item itemvalue="JUnit.CartTest.cartShouldNotBeEmptyAfterAddingOrderToCart" />
         <item itemvalue="JUnit.CartTest" />
-        <item itemvalue="JUnit.CartTest.simulateLeargeOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +179,7 @@
       <workItem from="1575732729660" duration="19202000" />
       <workItem from="1575931152106" duration="774000" />
       <workItem from="1576009986025" duration="1842000" />
-      <workItem from="1576184284944" duration="2581000" />
+      <workItem from="1576184284944" duration="3004000" />
     </task>
     <task id="LOCAL-00001" summary="Test Update">
       <created>1574863886929</created>
@@ -458,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576185652695</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Test Update">
+      <created>1576193525459</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1576193525459</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
