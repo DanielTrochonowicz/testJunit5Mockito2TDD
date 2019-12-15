@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/AdrdressTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/addresses.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +53,9 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/DanielTrochonowicz/PortfolioDT.git" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="unitTestJava" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -70,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MealTest">
+  <component name="RunManager" selected="JUnit.AdrdressTest.AddressesFromFileShouldNotBeEmptyAndHaveProperNames">
     <configuration name="AccountTest.newAccountWithNotNullAddressShouldBeActive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -87,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdrdressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
@@ -96,13 +101,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.CartTest" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.AdrdressTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartTest.cartShouldNotBeEmptyAfterAddingOrderToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdrdressTest.AddressesFromFileShouldNotBeEmptyAndHaveProperNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.CartTest" />
-      <option name="METHOD_NAME" value="cartShouldNotBeEmptyAfterAddingOrderToCart" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.AdrdressTest" />
+      <option name="METHOD_NAME" value="AddressesFromFileShouldNotBeEmptyAndHaveProperNames(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdrdressTest.AddressesFromFileShouldNotBeEmptyAndHaveProperNames" />
+        <item itemvalue="JUnit.AdrdressTest" />
         <item itemvalue="JUnit.MealTest" />
         <item itemvalue="JUnit.MealTest.burgersShouldHaveCorrectNameAndPrice" />
         <item itemvalue="JUnit.AccountTest.newAccountWithNotNullAddressShouldBeActive" />
-        <item itemvalue="JUnit.CartTest.cartShouldNotBeEmptyAfterAddingOrderToCart" />
-        <item itemvalue="JUnit.CartTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +185,7 @@
       <workItem from="1575931152106" duration="774000" />
       <workItem from="1576009986025" duration="1842000" />
       <workItem from="1576184284944" duration="3004000" />
+      <workItem from="1576350168484" duration="1413000" />
     </task>
     <task id="LOCAL-00001" summary="Test Update">
       <created>1574863886929</created>
@@ -461,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576193525459</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Test Update">
+      <created>1576350392024</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1576350392024</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
