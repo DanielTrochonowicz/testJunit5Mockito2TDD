@@ -11,7 +11,6 @@ import static org.hamcrest.Matchers.lessThan;
 
 public class AdrdressTest {
 
-
     @ParameterizedTest
     @CsvSource({"Powstańców, 10", "Armii Krajowej,  57/11", "'Romka, Tomka, Atomka', 40"})
     void givenAddressesShouldNotBeEmptyAndHaveProperNames(String street, String number) {
