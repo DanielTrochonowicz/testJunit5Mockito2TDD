@@ -13,7 +13,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="unit-testing-java" options="--add-exports=jdk.hotspot.agent/sun.jvm.hotspot.utilities=ALL-UNNAMED" />
+      <module name="unit-testing-java" options="" />
     </option>
   </component>
 </project>
