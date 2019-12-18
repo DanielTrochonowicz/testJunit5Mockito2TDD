@@ -22,11 +22,13 @@ public class OrderTest {
 
     @BeforeEach
     void  initializerOrder(){
+        System.out.println("Before each");
         order = new Order();
     }
 
     @AfterEach
     void clean(){
+        System.out.println("After each");
         order.canel();
     }
 
