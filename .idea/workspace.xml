@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -187,14 +188,8 @@
       <workItem from="1576705391431" duration="637000" />
       <workItem from="1576733736970" duration="85000" />
       <workItem from="1576870928596" duration="800000" />
-      <workItem from="1576954322085" duration="171000" />
-    </task>
-    <task id="LOCAL-00003" summary="Test Update">
-      <created>1574864830003</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1574864830003</updated>
+      <workItem from="1576954322085" duration="782000" />
+      <workItem from="1577108235298" duration="593000" />
     </task>
     <task id="LOCAL-00004" summary="Test Update">
       <created>1574967482241</created>
@@ -532,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576954490229</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Test Update">
+      <created>1576954520569</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1576954520569</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
