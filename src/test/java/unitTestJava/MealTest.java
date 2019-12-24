@@ -1,6 +1,7 @@
 package unitTestJava;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -109,8 +110,9 @@ class MealTest {
         return  cakeNames.stream();
     }
 
+    @ExtendWith(IAExceptionIgnoreExtension.class)
     @ParameterizedTest
-    @ValueSource(ints = {1, 3, 7, 8})
+    @ValueSource(ints = {1, 3, 5, 8})
     void mealPriceShouldBeLoweThan10(int price) {
         if (price > 5) {
             throw new IllegalArgumentException();

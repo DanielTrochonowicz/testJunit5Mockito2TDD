@@ -1,20 +1,26 @@
 package unitTestJava;
 
+//import org.junit.Rule;
+
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.internal.bytebuddy.matcher.ElementMatchers.is;
-import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.nullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 
-@RunWith(MockitoJUnitRunner.class)
+//import org.junit.rules.TemporaryFolder;
+//import org.junit.runner.RunWith;
+//import org.mockito.junit.MockitoJUnitRunner;
+
+//@RunWith(MockitoJUnitRunner.class)
 public class AccountTest {
 
+//    @Rule
+//    private TemporaryFolder temporaryFolder = new TemporaryFolder();
     @Test
     public void newCreateAccountShouldNotBeActivate(){
 
