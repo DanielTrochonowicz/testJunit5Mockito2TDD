@@ -3,9 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/MealTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unitTestJava/MealTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/BeforeAfterExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Kalkulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Meal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/OrderBeckup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unitTestJava.AccountTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unitTestJava.AccountTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/addresses.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/AccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/AdrdressTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/CartTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/KalkulatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/MealTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/OrderBackupTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/OrderStatusTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/OrderTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,14 +216,7 @@
       <workItem from="1576733736970" duration="85000" />
       <workItem from="1576870928596" duration="800000" />
       <workItem from="1576954322085" duration="782000" />
-      <workItem from="1577108235298" duration="5875000" />
-    </task>
-    <task id="LOCAL-00011" summary="Test Update">
-      <created>1575198283609</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1575198283609</updated>
+      <workItem from="1577108235298" duration="6966000" />
     </task>
     <task id="LOCAL-00012" summary="Test Update">
       <created>1575199439836</created>
@@ -538,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577217775806</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Test Update">
+      <created>1577219425804</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1577219425804</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
