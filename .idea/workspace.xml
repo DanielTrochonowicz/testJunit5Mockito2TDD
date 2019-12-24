@@ -95,21 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdrdressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTestJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.AdrdressTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AdrdressTest.AddressesFromFileShouldNotBeEmptyAndHaveProperNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -142,6 +127,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MealTest.mealPriceShouldBeLoweThan9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.MealTest" />
+      <option name="METHOD_NAME" value="mealPriceShouldBeLoweThan9(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -160,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MealTest.mealPriceShouldBeLoweThan10" />
+        <item itemvalue="JUnit.MealTest.mealPriceShouldBeLoweThan9" />
         <item itemvalue="JUnit.AccountTest.newCreateAccountShouldNotBeActivate" />
         <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.AdrdressTest.AddressesFromFileShouldNotBeEmptyAndHaveProperNames" />
-        <item itemvalue="JUnit.AdrdressTest" />
       </list>
     </recent_temporary>
   </component>

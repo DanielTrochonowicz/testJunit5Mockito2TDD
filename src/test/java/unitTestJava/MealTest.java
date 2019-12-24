@@ -7,6 +7,7 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
@@ -116,6 +117,16 @@ class MealTest {
     void mealPriceShouldBeLoweThan10(int price) {
         if (price > 5) {
             throw new IllegalArgumentException();
+        }
+        assertThat(price, lessThan(20));
+    }
+
+    @ExtendWith(IAExceptionIgnoreExtension.class)
+    @ParameterizedTest
+    @ValueSource(ints = {1, 3, 5, 8})
+    void mealPriceShouldBeLoweThan9(int price) throws IOException {
+        if (price > 5) {
+            throw new IOException();
         }
         assertThat(price, lessThan(20));
     }
