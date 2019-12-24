@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderBackupExecutionOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/OrderBeckup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/OrderBackup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/BeforeAfterExtension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Kalkulator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Meal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/OrderBeckup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unitTestJava/OrderStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unitTestJava.AccountTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unitTestJava.AccountTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/addresses.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/AccountTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/AdrdressTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/CartTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/KalkulatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/MealTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/OrderBackupTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/OrderStatusTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/OrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderBackupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderBackupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +47,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -98,23 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MealTest.dynamicTestCollection">
-    <configuration name="AccountTest.newCreateAccountShouldNotBeActivate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTestJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.AccountTest" />
-      <option name="METHOD_NAME" value="newCreateAccountShouldNotBeActivate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OrderBackupExecutionOrderTest.callingBackupWithoutCreatingFileFirstShouldThrowException">
     <configuration name="MealTest.dynamicTestCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -163,7 +130,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderBackupExecutionOrderTest.callingBackupWithoutCreatingFileFirstShouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.OrderBackupExecutionOrderTest" />
+      <option name="METHOD_NAME" value="callingBackupWithoutCreatingFileFirstShouldThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.orderTotalPriceShouldnotExceedsmaxIntValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
@@ -173,18 +156,19 @@
       </extension>
       <option name="PACKAGE_NAME" value="unitTestJava" />
       <option name="MAIN_CLASS_NAME" value="unitTestJava.OrderTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="orderTotalPriceShouldnotExceedsmaxIntValue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderBackupExecutionOrderTest.callingBackupWithoutCreatingFileFirstShouldThrowException" />
+        <item itemvalue="JUnit.OrderTest.orderTotalPriceShouldnotExceedsmaxIntValue" />
         <item itemvalue="JUnit.MealTest.dynamicTestCollection" />
         <item itemvalue="JUnit.MealTest.mealPriceShouldBeLoweThan10" />
         <item itemvalue="JUnit.MealTest.mealPriceShouldBeLoweThan9" />
-        <item itemvalue="JUnit.AccountTest.newCreateAccountShouldNotBeActivate" />
-        <item itemvalue="JUnit.OrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,14 +200,7 @@
       <workItem from="1576733736970" duration="85000" />
       <workItem from="1576870928596" duration="800000" />
       <workItem from="1576954322085" duration="782000" />
-      <workItem from="1577108235298" duration="6966000" />
-    </task>
-    <task id="LOCAL-00012" summary="Test Update">
-      <created>1575199439836</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1575199439836</updated>
+      <workItem from="1577108235298" duration="11840000" />
     </task>
     <task id="LOCAL-00013" summary="Test Update">
       <created>1575199480285</created>
@@ -561,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577219425804</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Test Update">
+      <created>1577220824247</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1577220824247</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

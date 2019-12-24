@@ -10,11 +10,11 @@ import java.io.IOException;
 
 public class OrderBackupTest {
 
-    private static OrderBeckup orderBeckup;
+    private static OrderBackup orderBeckup;
 
     @BeforeAll
     static void  setup() throws FileNotFoundException {
-        orderBeckup = new OrderBeckup();
+        orderBeckup = new OrderBackup();
         orderBeckup.createFile();
     }
     @BeforeEach
