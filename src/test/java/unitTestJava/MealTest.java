@@ -112,9 +112,10 @@ class MealTest {
     @ParameterizedTest
     @ValueSource(ints = {1, 3, 7, 8})
     void mealPriceShouldBeLoweThan10(int price) {
-        if(price > 5) {
+        if (price > 5) {
             throw new IllegalArgumentException();
         }
         assertThat(price, lessThan(20));
     }
+
 }
