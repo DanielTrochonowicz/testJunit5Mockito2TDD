@@ -1,6 +1,8 @@
 package unitTestJava;
 
+import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestFactory;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -8,7 +10,9 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -16,6 +20,7 @@ import static org.assertj.core.api.Java6Assertions.assertThat;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
 class MealTest {
     @Test
@@ -131,4 +136,10 @@ class MealTest {
         assertThat(price, lessThan(20));
     }
 
+    @TestFactory
+    Collection<DynamicTest> dynamicTestCollection(){
+        return Arrays.asList(
+                dynamicTest("Dynamic Test 1", () -> assertThat(5, lessThan(6))),
+                dynamicTest("Dynamic Test 2", () -> assertEquals(5, 2*2)));
+    }
 }

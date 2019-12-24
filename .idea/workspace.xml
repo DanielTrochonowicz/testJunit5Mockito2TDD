@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/IAExceptionIgnoreExtension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unitTestJava/AccountTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTestJava/MealTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unitTestJava/MealTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MealTest.mealPriceShouldBeLoweThan10">
+  <component name="RunManager" selected="JUnit.MealTest.dynamicTestCollection">
     <configuration name="AccountTest.newCreateAccountShouldNotBeActivate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -95,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdrdressTest.AddressesFromFileShouldNotBeEmptyAndHaveProperNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MealTest.dynamicTestCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +98,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.AdrdressTest" />
-      <option name="METHOD_NAME" value="AddressesFromFileShouldNotBeEmptyAndHaveProperNames(java.lang.String,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.MealTest" />
+      <option name="METHOD_NAME" value="dynamicTestCollection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MealTest.dynamicTestCollection" />
         <item itemvalue="JUnit.MealTest.mealPriceShouldBeLoweThan10" />
         <item itemvalue="JUnit.MealTest.mealPriceShouldBeLoweThan9" />
         <item itemvalue="JUnit.AccountTest.newCreateAccountShouldNotBeActivate" />
         <item itemvalue="JUnit.OrderTest" />
-        <item itemvalue="JUnit.AdrdressTest.AddressesFromFileShouldNotBeEmptyAndHaveProperNames" />
       </list>
     </recent_temporary>
   </component>
@@ -196,21 +190,7 @@
       <workItem from="1576733736970" duration="85000" />
       <workItem from="1576870928596" duration="800000" />
       <workItem from="1576954322085" duration="782000" />
-      <workItem from="1577108235298" duration="3770000" />
-    </task>
-    <task id="LOCAL-00008" summary="Test Update">
-      <created>1574969070694</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1574969070694</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Test Update">
-      <created>1575053224933</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1575053224934</updated>
+      <workItem from="1577108235298" duration="4077000" />
     </task>
     <task id="LOCAL-00010" summary="Test Update">
       <created>1575054915566</created>
@@ -541,7 +521,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577216801045</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Test Update">
+      <created>1577217340517</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1577217340518</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Test Update">
+      <created>1577217492773</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1577217492773</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
