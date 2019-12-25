@@ -1,4 +1,4 @@
-package unitTestJava;
+package unitTestJava.account;
 
 public class Account {
 

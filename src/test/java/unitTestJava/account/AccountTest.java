@@ -1,10 +1,11 @@
-package unitTestJava;
+package unitTestJava.account;
 
 //import org.junit.Rule;
 
 import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import unitTestJava.account.Account;
+import unitTestJava.account.Address;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.CoreMatchers.equalTo;

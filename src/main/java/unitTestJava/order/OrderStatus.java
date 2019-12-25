@@ -1,4 +1,4 @@
-package unitTestJava;
+package unitTestJava.order;
 
 public enum OrderStatus {
 

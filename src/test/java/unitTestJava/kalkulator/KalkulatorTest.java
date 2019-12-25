@@ -1,6 +1,7 @@
-package unitTestJava;
+package unitTestJava.kalkulator;
 
 import org.junit.jupiter.api.Test;
+import unitTestJava.kalkulator.Kalkulator;
 
 class KalkulatorTest {
 

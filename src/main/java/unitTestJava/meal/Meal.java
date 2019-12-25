@@ -1,4 +1,4 @@
-package unitTestJava;
+package unitTestJava.meal;
 
 import java.util.Objects;
 
@@ -59,5 +59,9 @@ public class Meal {
                 "price=" + price +
                 ", name='" + name + '\'' +
                 '}';
+    }
+
+    public String getName() {
+        return this.name;
     }
 }

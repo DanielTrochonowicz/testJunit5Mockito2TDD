@@ -1,8 +1,10 @@
-package unitTestJava;
+package unitTestJava.cart;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import unitTestJava.cart.Cart;
+import unitTestJava.meal.Meal;
+import unitTestJava.order.Order;
 
 import java.time.Duration;
 import java.util.List;

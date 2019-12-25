@@ -1,4 +1,7 @@
-package unitTestJava;
+package unitTestJava.cart;
+
+import unitTestJava.meal.Meal;
+import unitTestJava.order.Order;
 
 import java.util.ArrayList;
 import java.util.List;

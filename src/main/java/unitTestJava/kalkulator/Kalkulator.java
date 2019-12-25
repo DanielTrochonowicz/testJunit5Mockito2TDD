@@ -1,4 +1,4 @@
-package unitTestJava;
+package unitTestJava.kalkulator;
 
 public class Kalkulator {
 

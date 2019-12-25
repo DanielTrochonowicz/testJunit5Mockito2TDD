@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderBackupExecutionOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/account/AccountRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/OrderBeckup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/OrderBackup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderBackupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderBackupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/account/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/BeforeAfterExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/extension/BeforeAfterExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/IAExceptionIgnoreExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/extension/IAExceptionIgnoreExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Kalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/kalkulator/Kalkulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/meal/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/OrderBackup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/order/OrderBackup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/order/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/AdrdressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AdrdressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/cart/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/KalkulatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/kalkulator/KalkulatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/meal/MealTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderBackupExecutionOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/order/OrderBackupExecutionOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderBackupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/order/OrderBackupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderStatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/order/OrderStatusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/order/OrderTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +35,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,7 +73,11 @@
       <recent name="https://github.com/DanielTrochonowicz/PortfolioDT.git" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="unitTestJava" />
+      <recent name="unitTestJava.kalkulator" />
+      <recent name="unitTestJava.order" />
+      <recent name="unitTestJava.meal" />
+      <recent name="unitTestJava.cart" />
+      <recent name="unitTestJava.account" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -81,56 +98,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderBackupExecutionOrderTest.callingBackupWithoutCreatingFileFirstShouldThrowException">
-    <configuration name="MealTest.dynamicTestCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByStartingLetters">
+    <configuration name="MealRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTestJava.*" />
+          <option name="PATTERN" value="unitTestJava.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.MealTest" />
-      <option name="METHOD_NAME" value="dynamicTestCollection" />
+      <option name="PACKAGE_NAME" value="unitTestJava.meal" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.meal.MealRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MealRepositoryTest.shouldBeAbleToFindMealByExactName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.meal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava.meal" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.meal.MealRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldBeAbleToFindMealByExactName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealTest.mealPriceShouldBeLoweThan10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MealRepositoryTest.shouldBeAbleToFindMealByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTestJava.*" />
+          <option name="PATTERN" value="unitTestJava.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.MealTest" />
-      <option name="METHOD_NAME" value="mealPriceShouldBeLoweThan10(int)" />
+      <option name="PACKAGE_NAME" value="unitTestJava.meal" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.meal.MealRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldBeAbleToFindMealByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealTest.mealPriceShouldBeLoweThan9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MealRepositoryTest.shouldBeAbleToFindMealByStartingLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTestJava.*" />
+          <option name="PATTERN" value="unitTestJava.meal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.MealTest" />
-      <option name="METHOD_NAME" value="mealPriceShouldBeLoweThan9(int)" />
+      <option name="PACKAGE_NAME" value="unitTestJava.meal" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.meal.MealRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldBeAbleToFindMealByStartingLetters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderBackupExecutionOrderTest.callingBackupWithoutCreatingFileFirstShouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="unitTestJava in unit-testing-java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
@@ -139,36 +171,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.OrderBackupExecutionOrderTest" />
-      <option name="METHOD_NAME" value="callingBackupWithoutCreatingFileFirstShouldThrowException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest.orderTotalPriceShouldnotExceedsmaxIntValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTestJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.OrderTest" />
-      <option name="METHOD_NAME" value="orderTotalPriceShouldnotExceedsmaxIntValue" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderBackupExecutionOrderTest.callingBackupWithoutCreatingFileFirstShouldThrowException" />
-        <item itemvalue="JUnit.OrderTest.orderTotalPriceShouldnotExceedsmaxIntValue" />
-        <item itemvalue="JUnit.MealTest.dynamicTestCollection" />
-        <item itemvalue="JUnit.MealTest.mealPriceShouldBeLoweThan10" />
-        <item itemvalue="JUnit.MealTest.mealPriceShouldBeLoweThan9" />
+        <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByStartingLetters" />
+        <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByExactName" />
+        <item itemvalue="JUnit.unitTestJava in unit-testing-java" />
+        <item itemvalue="JUnit.MealRepositoryTest" />
+        <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByName" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +215,8 @@
       <workItem from="1576870928596" duration="800000" />
       <workItem from="1576954322085" duration="782000" />
       <workItem from="1577108235298" duration="11840000" />
+      <workItem from="1577266929051" duration="4721000" />
+      <workItem from="1577313962867" duration="664000" />
     </task>
     <task id="LOCAL-00013" summary="Test Update">
       <created>1575199480285</created>

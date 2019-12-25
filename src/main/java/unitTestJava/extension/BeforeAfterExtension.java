@@ -1,4 +1,4 @@
-package unitTestJava;
+package unitTestJava.extension;
 
 import org.junit.jupiter.api.extension.AfterEachCallback;
 import org.junit.jupiter.api.extension.BeforeEachCallback;
