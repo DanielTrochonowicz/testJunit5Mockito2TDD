@@ -35,4 +35,66 @@ public class MealRepositoryTest {
         assertThat(mealRepository.getAllMeals().get(0), is(meal));
     }
 
+    @Test
+    void shouldBeAbleToRemoveMealFromRepository(){
+
+        //given
+        Meal meal = new Meal(10, "Pizza");
+        mealRepository.add(meal);
+
+        //when
+        mealRepository.delete(meal);
+
+        //then
+        assertThat(mealRepository.getAllMeals(), not(contains(meal)));
+    }
+
+    @Test
+    void shouldBeAbleToFindMealByExactName() {
+
+        //given
+        Meal meal = new Meal(10, "Pizza");
+        Meal meal2 = new Meal(10, "Pi");
+
+        mealRepository.add(meal);
+        mealRepository.add(meal2);
+
+        //when
+        List<Meal> result = mealRepository.findByName("Pizza", true);
+
+        //then
+        assertThat(result.size(), is(1));
+    }
+
+    @Test
+    void shouldBeAbleToFindMealByStartingLetters(){
+
+        //given
+        Meal meal = new Meal(10, "Pizza");
+        Meal meal2 = new Meal(10, "Pi");
+
+        mealRepository.add(meal);
+        mealRepository.add(meal2);
+
+        //when
+        List<Meal> result = mealRepository.findByName("P", false);
+
+        //then
+        assertThat(result.size(), is(2));
+    }
+
+    @Test
+    void shouldBeAbleToFindMealByPrice() {
+
+        //given
+        Meal meal = new Meal(10, "Pizza");
+        mealRepository.add(meal);
+
+        //when
+        List<Meal> result = mealRepository.findByPrice(10);
+
+        //then
+        assertThat(result.size(), is(1));
+
+    }
 }
