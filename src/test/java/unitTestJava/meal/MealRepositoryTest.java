@@ -59,6 +59,7 @@ public class MealRepositoryTest {
         mealRepository.add(meal);
         mealRepository.add(meal2);
 
+
         //when
         List<Meal> result = mealRepository.findByName("Pizza", true);
 
@@ -81,6 +82,7 @@ public class MealRepositoryTest {
 
         //then
         assertThat(result.size(), is(2));
+
     }
 
     @Test
