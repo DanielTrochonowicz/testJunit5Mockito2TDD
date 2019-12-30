@@ -55,6 +55,7 @@ public class MealRepositoryTest {
         //given
         Meal meal = new Meal(10, "Pizza");
         Meal meal2 = new Meal(10, "Pi");
+
         mealRepository.add(meal);
         mealRepository.add(meal2);
 
