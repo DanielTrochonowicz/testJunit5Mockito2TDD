@@ -1,6 +1,8 @@
 package unitTestJava.account;
 
 import org.junit.jupiter.api.Test;
+import org.mockito.junit.jupiter.MockitoSettings;
+import org.mockito.quality.Strictness;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -13,6 +15,7 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+//@MockitoSettings(strictness = Strictness.STRICT_STUBS)
 public class AccountServiceTest {
 
     @Test
