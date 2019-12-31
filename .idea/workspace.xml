@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/cart/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/cart/CartService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/cart/CartServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/cart/CartServiceTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CartServiceTest.processCartShouldSendToPreparing">
+  <component name="RunManager" selected="JUnit.CartServiceTest.processCartShouldSendToPrepareWithLambdas">
     <configuration name="AccountServiceStubTest.getAllActiveAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -90,22 +92,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="unitTestJava.account" />
       <option name="MAIN_CLASS_NAME" value="unitTestJava.account.AccountServiceStubTest" />
-      <option name="METHOD_NAME" value="getAllActiveAccounts" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountServiceTest.getAllActiveAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTestJava.account.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava.account" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.account.AccountServiceTest" />
       <option name="METHOD_NAME" value="getAllActiveAccounts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -128,6 +114,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CartServiceTest.canHandleCartShouldReturnMultipleValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava.cart" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.cart.CartServiceTest" />
+      <option name="METHOD_NAME" value="canHandleCartShouldReturnMultipleValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartServiceTest.processCartShouldNotSendToPreparing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava.cart" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.cart.CartServiceTest" />
+      <option name="METHOD_NAME" value="processCartShouldNotSendToPreparing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartServiceTest.processCartShouldSendToPrepareWithLambdas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava.cart" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.cart.CartServiceTest" />
+      <option name="METHOD_NAME" value="processCartShouldSendToPrepareWithLambdas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CartServiceTest.processCartShouldSendToPreparing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -144,43 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealRepositoryTest.shouldBeAbleToFindMealByStartingLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTestJava.meal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava.meal" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.meal.MealRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldBeAbleToFindMealByStartingLetters" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="unitTestJava in unit-testing-java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTestJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartServiceTest.processCartShouldSendToPrepareWithLambdas" />
+        <item itemvalue="JUnit.CartServiceTest.canHandleCartShouldReturnMultipleValues" />
+        <item itemvalue="JUnit.CartServiceTest.processCartShouldNotSendToPreparing" />
         <item itemvalue="JUnit.CartServiceTest.processCartShouldSendToPreparing" />
         <item itemvalue="JUnit.AccountServiceTest.getNoActiveAccounts" />
-        <item itemvalue="JUnit.AccountServiceTest.getAllActiveAccounts" />
-        <item itemvalue="JUnit.AccountServiceStubTest.getAllActiveAccounts" />
-        <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByStartingLetters" />
       </list>
     </recent_temporary>
   </component>
@@ -216,14 +220,7 @@
       <workItem from="1577266929051" duration="4721000" />
       <workItem from="1577313962867" duration="989000" />
       <workItem from="1577442297231" duration="241000" />
-      <workItem from="1577546820830" duration="8724000" />
-    </task>
-    <task id="LOCAL-00026" summary="Test Update">
-      <created>1575733017145</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1575733017145</updated>
+      <workItem from="1577546820830" duration="10392000" />
     </task>
     <task id="LOCAL-00027" summary="Test Update">
       <created>1575733056772</created>
@@ -561,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577828023982</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Test Update">
+      <created>1577828474394</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1577828474394</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -15,7 +15,7 @@ import static org.mockito.internal.verification.VerificationModeFactory.times;
 
 class CartServiceTest {
     @Test
-    void processCartShouldSendToPreparing(){
+    void processCartShouldSendToPrepare(){
 
         //given
         Order order = new Order();
@@ -44,4 +44,71 @@ class CartServiceTest {
         assertThat(resultCart.getOrders(), hasSize(1));
         assertThat(resultCart.getOrders().get(0).getOrderStatus(), equalTo(OrderStatus.PREPARING));
     }
+
+    @Test
+    void processCartShouldNotSendToPrepare(){
+
+        //given
+        Order order = new Order();
+        Cart cart = new Cart();
+        cart.addOrderToCart(order);
+
+        CartHandler cartHandler = mock(CartHandler.class);
+        CartService cartService = new CartService(cartHandler);
+
+        given(cartHandler.canHandleCart(cart)).willReturn(false);
+
+        //when
+        Cart resultCart = cartService.procesCart(cart);
+
+        //then
+        verify(cartHandler, never()).sendToPrepare(cart);
+        then(cartHandler).should(never()).sendToPrepare(cart);
+        assertThat(resultCart.getOrders(), hasSize(1));
+        assertThat(resultCart.getOrders().get(0).getOrderStatus(), equalTo(OrderStatus.REJECTED));
+    }
+
+    @Test
+    void processCartShouldNotSendToPrepareWithArgumentMatchers(){
+
+        //given
+        Order order = new Order();
+        Cart cart = new Cart();
+        cart.addOrderToCart(order);
+
+        CartHandler cartHandler = mock(CartHandler.class);
+        CartService cartService = new CartService(cartHandler);
+
+        given(cartHandler.canHandleCart(any(Cart.class))).willReturn(false);
+
+        //when
+        Cart resultCart = cartService.procesCart(cart);
+
+        //then
+        verify(cartHandler, never()).sendToPrepare(cart);
+        then(cartHandler).should(never()).sendToPrepare(cart);
+        assertThat(resultCart.getOrders(), hasSize(1));
+        assertThat(resultCart.getOrders().get(0).getOrderStatus(), equalTo(OrderStatus.REJECTED));
+    }
+
+    @Test
+    void canHandleCartShouldReturnMultipleValues(){
+
+        //given
+        Order order = new Order();
+        Cart cart = new Cart();
+        cart.addOrderToCart(order);
+
+        CartHandler cartHandler = mock(CartHandler.class);
+
+        given(cartHandler.canHandleCart(cart)).willReturn(true, false, false, true);
+
+        //then
+        assertThat(cartHandler.canHandleCart(cart), equalTo(true));
+        assertThat(cartHandler.canHandleCart(cart), equalTo(false));
+        assertThat(cartHandler.canHandleCart(cart), equalTo(false));
+        assertThat(cartHandler.canHandleCart(cart), equalTo(true));
+    }
+
+
 }

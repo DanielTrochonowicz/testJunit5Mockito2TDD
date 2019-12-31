@@ -19,7 +19,7 @@ public class CartService {
             return cart;
         } else {
             cart.getOrders().forEach(order -> {
-                order.changeOrderStatus(OrderStatus.PREPARING);
+                order.changeOrderStatus(OrderStatus.REJECTED);
             });
             return cart;
         }
