@@ -248,5 +248,22 @@ class CartServiceTest {
         assertThat(resultCart.getOrders().size(), equalTo(0));
     }
 
+    @Test
+    void deliveryShouldBeFree(){
 
+        //given
+        Cart cart = new Cart();
+        cart.addOrderToCart(new Order());
+        cart.addOrderToCart(new Order());
+        cart.addOrderToCart(new Order());
+
+        CartHandler cartHandler = mock(CartHandler.class);
+        given(cartHandler.isDeliveryFree(cart)).willCallRealMethod();
+
+        //when
+        boolean isDeliveryFree = cartHandler.isDeliveryFree(cart);
+
+        //then
+        assertTrue(isDeliveryFree);
+    }
 }
