@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountRepositoryStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceStubTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/account/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/account/AccountRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AdrdressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AddressTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +82,22 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.AccountServiceTest.getAllActiveAccounts">
+    <configuration name="AccountServiceStubTest.getAllActiveAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava.account" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.account.AccountServiceStubTest" />
+      <option name="METHOD_NAME" value="getAllActiveAccounts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountServiceTest.getAllActiveAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -162,10 +178,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AccountServiceTest.getAllActiveAccounts" />
+        <item itemvalue="JUnit.AccountServiceStubTest.getAllActiveAccounts" />
         <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByStartingLetters" />
         <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByExactName" />
         <item itemvalue="JUnit.unitTestJava in unit-testing-java" />
-        <item itemvalue="JUnit.MealRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,21 +217,7 @@
       <workItem from="1577266929051" duration="4721000" />
       <workItem from="1577313962867" duration="989000" />
       <workItem from="1577442297231" duration="241000" />
-      <workItem from="1577546820830" duration="6288000" />
-    </task>
-    <task id="LOCAL-00021" summary="Test Update">
-      <created>1575288516660</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1575288516660</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Test Update">
-      <created>1575288550808</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1575288550808</updated>
+      <workItem from="1577546820830" duration="7095000" />
     </task>
     <task id="LOCAL-00023" summary="Test Update">
       <created>1575395361421</created>
@@ -546,7 +548,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577825197780</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Test Update">
+      <created>1577825839055</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1577825839055</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Test Update">
+      <created>1577826018306</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1577826018307</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,5 +584,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Test Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/unitTestJava/account/AccountService.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

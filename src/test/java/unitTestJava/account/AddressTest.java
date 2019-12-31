@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.lessThan;
 
-public class AdrdressTest {
+public class AddressTest {
 
     @ParameterizedTest
     @CsvSource({"Powstańców, 10", "Armii Krajowej,  57/11", "'Romka, Tomka, Atomka', 40"})
