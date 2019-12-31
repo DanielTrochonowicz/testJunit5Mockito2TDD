@@ -258,7 +258,8 @@ class CartServiceTest {
         cart.addOrderToCart(new Order());
 
         CartHandler cartHandler = mock(CartHandler.class);
-        given(cartHandler.isDeliveryFree(cart)).willCallRealMethod();
+        doCallRealMethod().when(cartHandler).isDeliveryFree(cart);
+      //  given(cartHandler.isDeliveryFree(cart)).willCallRealMethod();
 
         //when
         boolean isDeliveryFree = cartHandler.isDeliveryFree(cart);

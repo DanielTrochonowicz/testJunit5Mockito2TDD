@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="Test Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/cart/CartHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/cart/CartHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/meal/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/meal/Meal.java" afterDir="false" />
+    <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/cart/CartServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/cart/CartServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/meal/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/meal/MealTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -222,21 +218,7 @@
       <workItem from="1577266929051" duration="4721000" />
       <workItem from="1577313962867" duration="989000" />
       <workItem from="1577442297231" duration="241000" />
-      <workItem from="1577546820830" duration="13476000" />
-    </task>
-    <task id="LOCAL-00030" summary="Test Update">
-      <created>1575733333672</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1575733333672</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Test Update">
-      <created>1575733533576</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1575733533576</updated>
+      <workItem from="1577546820830" duration="13725000" />
     </task>
     <task id="LOCAL-00032" summary="Test Update">
       <created>1575798687621</created>
@@ -567,7 +549,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577830980676</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Test Update">
+      <created>1577834067496</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1577834067496</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Test Update">
+      <created>1577834080496</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1577834080496</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
