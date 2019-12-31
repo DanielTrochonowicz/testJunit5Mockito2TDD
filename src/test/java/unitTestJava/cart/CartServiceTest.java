@@ -1,14 +1,15 @@
 package unitTestJava.cart;
 
 import org.junit.jupiter.api.Test;
+import org.mockito.InOrder;
 import unitTestJava.order.Order;
 import unitTestJava.order.OrderStatus;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.mockito.BDDMockito.given;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
+import static org.mockito.BDDMockito.then;
+import static org.mockito.Mockito.*;
 import static org.mockito.internal.verification.VerificationModeFactory.atLeastOnce;
 import static org.mockito.internal.verification.VerificationModeFactory.times;
 
@@ -31,8 +32,15 @@ class CartServiceTest {
 
         //then
         verify(cartHandler).sendToPrepare(cart);
+        then(cartHandler).should().sendToPrepare(cart);
+
         verify(cartHandler, times(1)).sendToPrepare(cart);
         verify(cartHandler, atLeastOnce()).sendToPrepare(cart);
+
+        InOrder inOrder = inOrder(cartHandler);
+        inOrder.verify(cartHandler).canHandleCart(cart);
+        inOrder.verify(cartHandler).sendToPrepare(cart);
+
         assertThat(resultCart.getOrders(), hasSize(1));
         assertThat(resultCart.getOrders().get(0).getOrderStatus(), equalTo(OrderStatus.PREPARING));
     }

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/cart/CartHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/cart/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/cart/CartServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/order/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/order/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/cart/CartServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/cart/CartServiceTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,14 +216,7 @@
       <workItem from="1577266929051" duration="4721000" />
       <workItem from="1577313962867" duration="989000" />
       <workItem from="1577442297231" duration="241000" />
-      <workItem from="1577546820830" duration="8436000" />
-    </task>
-    <task id="LOCAL-00025" summary="Test Update">
-      <created>1575644517133</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1575644517133</updated>
+      <workItem from="1577546820830" duration="8724000" />
     </task>
     <task id="LOCAL-00026" summary="Test Update">
       <created>1575733017145</created>
@@ -566,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577826983698</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Test Update">
+      <created>1577828023982</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1577828023982</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
