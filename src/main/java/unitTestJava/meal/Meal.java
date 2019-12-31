@@ -64,4 +64,8 @@ public class Meal {
     public String getName() {
         return this.name;
     }
+
+    int sumPrice(){
+        return getPrice() * getQuanity();
+    }
 }
