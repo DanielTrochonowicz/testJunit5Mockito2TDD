@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/account/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountRepositoryStub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/meal/MealRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/meal/MealRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/account/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/account/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByStartingLetters">
+  <component name="RunManager" selected="JUnit.AccountServiceTest.getAllActiveAccounts">
+    <configuration name="AccountServiceTest.getAllActiveAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestJava.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestJava.account" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.account.AccountServiceTest" />
+      <option name="METHOD_NAME" value="getAllActiveAccounts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MealRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -108,22 +124,6 @@
       <option name="PACKAGE_NAME" value="unitTestJava.meal" />
       <option name="MAIN_CLASS_NAME" value="unitTestJava.meal.MealRepositoryTest" />
       <option name="METHOD_NAME" value="shouldBeAbleToFindMealByExactName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MealRepositoryTest.shouldBeAbleToFindMealByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTestJava.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava.meal" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.meal.MealRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldBeAbleToFindMealByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountServiceTest.getAllActiveAccounts" />
         <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByStartingLetters" />
         <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByExactName" />
         <item itemvalue="JUnit.unitTestJava in unit-testing-java" />
         <item itemvalue="JUnit.MealRepositoryTest" />
-        <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByName" />
       </list>
     </recent_temporary>
   </component>
@@ -201,14 +201,7 @@
       <workItem from="1577266929051" duration="4721000" />
       <workItem from="1577313962867" duration="989000" />
       <workItem from="1577442297231" duration="241000" />
-      <workItem from="1577546820830" duration="5646000" />
-    </task>
-    <task id="LOCAL-00020" summary="Test Update">
-      <created>1575288314865</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1575288314865</updated>
+      <workItem from="1577546820830" duration="6288000" />
     </task>
     <task id="LOCAL-00021" summary="Test Update">
       <created>1575288516660</created>
@@ -546,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577748889687</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Test Update">
+      <created>1577825197779</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1577825197780</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
