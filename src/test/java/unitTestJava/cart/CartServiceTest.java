@@ -110,5 +110,25 @@ class CartServiceTest {
         assertThat(cartHandler.canHandleCart(cart), equalTo(true));
     }
 
+    @Test
+    void processCartShouldSendToPrepareWithLambdas(){
 
+        //given
+        Order order = new Order();
+        Cart cart = new Cart();
+        cart.addOrderToCart(order);
+
+        CartHandler cartHandler = mock(CartHandler.class);
+        CartService cartService = new CartService(cartHandler);
+
+        given(cartHandler.canHandleCart(argThat(c -> c.getOrders().size() > 0))).willReturn(true);
+
+        //when
+        Cart resultCart = cartService.procesCart(cart);
+
+        //then
+        then(cartHandler).should().sendToPrepare(cart);
+        assertThat(resultCart.getOrders(), hasSize(1));
+        assertThat(resultCart.getOrders().get(0).getOrderStatus(), equalTo(OrderStatus.PREPARING));
+    }
 }
