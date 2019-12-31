@@ -28,6 +28,21 @@ public class AccountServiceTest {
         assertThat(accountList, hasSize(2));
     }
 
+    @Test
+    void getNoActiveAccounts(){
+
+        //given
+        AccountRepository accountRepository = mock(AccountRepository.class);
+        AccountService accountService = new AccountService(accountRepository);
+        when(accountRepository.getAllAccounts()).thenReturn(Arrays.asList());
+
+        //when
+        List<Account> accountList = accountService.getAllActiveAccounts();
+
+        //then
+        assertThat(accountList, hasSize(0));
+    }
+
     private List<Account> prepareAccountDate(){
         Address address1 = new Address("Kwiatki", "10/3");
         Account account1 = new Account(address1);
