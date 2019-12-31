@@ -7,6 +7,7 @@ import unitTestJava.order.OrderStatus;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.BDDMockito.then;
 import static org.mockito.Mockito.*;
@@ -130,5 +131,23 @@ class CartServiceTest {
         then(cartHandler).should().sendToPrepare(cart);
         assertThat(resultCart.getOrders(), hasSize(1));
         assertThat(resultCart.getOrders().get(0).getOrderStatus(), equalTo(OrderStatus.PREPARING));
+    }
+
+    @Test
+    void canHandleCartShouldThrowException(){
+
+        //given
+        Order order = new Order();
+        Cart cart = new Cart();
+        cart.addOrderToCart(order);
+
+        CartHandler cartHandler = mock(CartHandler.class);
+        CartService cartService = new CartService(cartHandler);
+
+        given(cartHandler.canHandleCart(cart)).willThrow(IllegalStateException.class);
+
+        //when
+        //then
+        assertThrows(IllegalStateException.class, () -> cartService.procesCart(cart));
     }
 }
