@@ -1,8 +1,9 @@
 package unitTestJava.cart;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.ArgumentCaptor;
-import org.mockito.InOrder;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.*;
+import org.mockito.junit.jupiter.MockitoExtension;
 import unitTestJava.order.Order;
 import unitTestJava.order.OrderStatus;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -14,7 +15,16 @@ import static org.mockito.BDDMockito.*;
 import static org.mockito.internal.verification.VerificationModeFactory.atLeastOnce;
 import static org.mockito.internal.verification.VerificationModeFactory.times;
 
+//@ExtendWith(MockitoExtension.class)
 class CartServiceTest {
+
+//    @InjectMocks
+//    private CartService cartService;
+//    @Mock
+//    private CartHandler cartHandler;
+//    @Captor
+//    private ArgumentCaptor<Cart> argumentCaptor;
+//
     @Test
     void processCartShouldSendToPrepare(){
 

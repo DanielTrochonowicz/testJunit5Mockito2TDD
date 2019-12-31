@@ -3,10 +3,13 @@ package unitTestJava.account;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -43,6 +46,7 @@ public class AccountServiceTest {
         assertThat(accountList, hasSize(0));
     }
 
+
     private List<Account> prepareAccountDate(){
         Address address1 = new Address("Kwiatki", "10/3");
         Account account1 = new Account(address1);
@@ -53,4 +57,6 @@ public class AccountServiceTest {
         Account account3 = new Account(address2);
         return Arrays.asList(account1,account2,account3);
     }
+
+
 }
