@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/cart/CartHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/cart/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/cart/CartServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/order/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/order/OrderStatus.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="unitTestJava.cart" />
       <recent name="unitTestJava" />
     </key>
     <key name="OPEN_URL_DIALOG">
@@ -78,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountServiceTest.getNoActiveAccounts">
+  <component name="RunManager" selected="JUnit.CartServiceTest.processCartShouldSendToPreparing">
     <configuration name="AccountServiceStubTest.getAllActiveAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -127,17 +133,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealRepositoryTest.shouldBeAbleToFindMealByExactName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartServiceTest.processCartShouldSendToPreparing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTestJava.meal.*" />
+          <option name="PATTERN" value="unitTestJava.cart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="unitTestJava.meal" />
-      <option name="MAIN_CLASS_NAME" value="unitTestJava.meal.MealRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldBeAbleToFindMealByExactName" />
+      <option name="PACKAGE_NAME" value="unitTestJava.cart" />
+      <option name="MAIN_CLASS_NAME" value="unitTestJava.cart.CartServiceTest" />
+      <option name="METHOD_NAME" value="processCartShouldSendToPreparing" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartServiceTest.processCartShouldSendToPreparing" />
         <item itemvalue="JUnit.AccountServiceTest.getNoActiveAccounts" />
         <item itemvalue="JUnit.AccountServiceTest.getAllActiveAccounts" />
         <item itemvalue="JUnit.AccountServiceStubTest.getAllActiveAccounts" />
         <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByStartingLetters" />
-        <item itemvalue="JUnit.MealRepositoryTest.shouldBeAbleToFindMealByExactName" />
       </list>
     </recent_temporary>
   </component>
@@ -215,14 +221,7 @@
       <workItem from="1577266929051" duration="4721000" />
       <workItem from="1577313962867" duration="989000" />
       <workItem from="1577442297231" duration="241000" />
-      <workItem from="1577546820830" duration="7349000" />
-    </task>
-    <task id="LOCAL-00024" summary="Test Update">
-      <created>1575576602002</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1575576602003</updated>
+      <workItem from="1577546820830" duration="8436000" />
     </task>
     <task id="LOCAL-00025" summary="Test Update">
       <created>1575644517133</created>
@@ -560,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577826722782</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Test Update">
+      <created>1577826983698</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1577826983698</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

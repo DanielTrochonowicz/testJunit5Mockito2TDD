@@ -4,5 +4,7 @@ public enum OrderStatus {
 
     ORDER,
     REDY,
-    DELIVERY
+    DELIVERY,
+    PREPARING,
+    REJECTED
 }
