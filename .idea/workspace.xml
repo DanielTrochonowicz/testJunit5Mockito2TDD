@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a68d33-a961-4e14-b7ca-ad448c097a9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unitTestJava/meal/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unitTestJava/meal/Meal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/account/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTestJava/meal/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTestJava/meal/MealTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountServiceTest.getAccountsByName">
+  <component name="RunManager" selected="JUnit.MealTest.testMealSumPriceWithSpy">
     <configuration name="AccountServiceStubTest.getAllActiveAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
@@ -159,7 +162,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealTest.testMealSumPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MealTest.testMealSumPriceWithSpy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-java" />
       <extension name="coverage">
         <pattern>
@@ -169,7 +172,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="unitTestJava.meal" />
       <option name="MAIN_CLASS_NAME" value="unitTestJava.meal.MealTest" />
-      <option name="METHOD_NAME" value="testMealSumPrice" />
+      <option name="METHOD_NAME" value="testMealSumPriceWithSpy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MealTest.testMealSumPriceWithSpy" />
         <item itemvalue="JUnit.AccountServiceTest.getAccountsByName" />
         <item itemvalue="JUnit.CartServiceTest.processCartShouldSendToPrepare" />
         <item itemvalue="JUnit.CartServiceTest" />
         <item itemvalue="JUnit.CartServiceTest.deliveryShouldBeFree" />
-        <item itemvalue="JUnit.MealTest.testMealSumPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -217,14 +220,8 @@
       <workItem from="1577266929051" duration="4721000" />
       <workItem from="1577313962867" duration="989000" />
       <workItem from="1577442297231" duration="241000" />
-      <workItem from="1577546820830" duration="15942000" />
-    </task>
-    <task id="LOCAL-00034" summary="Test Update">
-      <created>1575815988797</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1575815988797</updated>
+      <workItem from="1577546820830" duration="17728000" />
+      <workItem from="1577989043007" duration="647000" />
     </task>
     <task id="LOCAL-00035" summary="Test Update">
       <created>1575816177189</created>
@@ -562,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577836499971</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Test Update">
+      <created>1577836718135</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1577836718136</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

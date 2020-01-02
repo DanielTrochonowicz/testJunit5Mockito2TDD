@@ -49,7 +49,20 @@ public class AccountServiceTest {
         assertThat(accountList, hasSize(0));
     }
 
+    @Test
+    void getAccountsByName(){
 
+        //given
+        AccountRepository accountRepository = mock(AccountRepository.class);
+        AccountService accountService = new AccountService(accountRepository);
+        given(accountRepository.getByName("dawid")).willReturn(Collections.singletonList("nowak"));
+
+        //when
+        List<String> accountNames = accountService.findByName("dawid");
+
+        //then
+        assertThat(accountNames,contains("nowak"));
+    }
     private List<Account> prepareAccountDate(){
         Address address1 = new Address("Kwiatki", "10/3");
         Account account1 = new Account(address1);

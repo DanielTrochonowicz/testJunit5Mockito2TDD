@@ -6,8 +6,8 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
+import org.mockito.Spy;
 import unitTestJava.extension.IAExceptionIgnoreExtension;
-import unitTestJava.meal.Meal;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -19,9 +19,15 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.BDDMockito.given;
+import static org.mockito.BDDMockito.then;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
 
 class MealTest {
+
+//    @Spy
+//    private Meal mealSpy;
+
     @Test
     void referenceToTheSameObjectShouldBeEquals() {
         //given
@@ -181,6 +187,8 @@ class MealTest {
         assertThat(result, equalTo(45));
 
     }
+
+
     private int calculatePrice(int price, int quantity){
         return price * quantity;
     }

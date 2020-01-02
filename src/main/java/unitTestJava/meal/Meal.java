@@ -8,6 +8,9 @@ public class Meal {
     private int quanity;
     private String name;
 
+    public Meal() {
+    }
+
     public Meal(int price) {
         this.price = price;
     }
@@ -63,9 +66,5 @@ public class Meal {
 
     public String getName() {
         return this.name;
-    }
-
-    int sumPrice(){
-        return getPrice() * getQuanity();
     }
 }
