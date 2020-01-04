@@ -188,7 +188,24 @@ class MealTest {
 
     }
 
+    @Test
+    void testMealSumPriceWithSpy(){
 
+        //given
+        Meal meal = spy(Meal.class);
+
+        given(meal.getPrice()).willReturn(15);
+        given(meal.getQuanity()).willReturn(3);
+
+        //when
+        int result = meal.sumPrice();
+
+        //then
+        then(meal).should().getPrice();
+        then(meal).should().getQuanity();
+        assertThat(result, equalTo(45));
+
+    }
     private int calculatePrice(int price, int quantity){
         return price * quantity;
     }
