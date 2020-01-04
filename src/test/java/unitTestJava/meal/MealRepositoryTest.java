@@ -94,6 +94,5 @@ public class MealRepositoryTest {
 
         //then
         assertThat(result.size(), is(1));
-
     }
 }
