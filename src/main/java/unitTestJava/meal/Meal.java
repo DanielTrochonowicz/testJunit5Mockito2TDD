@@ -58,10 +58,9 @@ public class Meal {
 
     @Override
     public String toString() {
-        return "Meal{" +
-                "price=" + price +
-                ", name='" + name + '\'' +
-                '}';
+        return "Meal: " +
+                "Price: " + price +
+                "Name: " + name;
     }
 
     public String getName() {
