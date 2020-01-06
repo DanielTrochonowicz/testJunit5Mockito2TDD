@@ -44,8 +44,6 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order{" +
-                "meals=" + meals +
-                '}';
+        return "Order: " + "Meals: " + meals;
     }
 }
